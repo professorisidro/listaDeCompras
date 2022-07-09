@@ -35,4 +35,9 @@ public class Produto {
 		this.nome = nome;
 	}
 
+	@Override
+	public String toString() {
+		return "Produto [id=" + id + ", nome=" + nome + "]";
+	}
+
 }

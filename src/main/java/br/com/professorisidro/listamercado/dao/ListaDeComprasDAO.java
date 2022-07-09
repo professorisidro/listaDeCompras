@@ -10,4 +10,4 @@ public interface ListaDeComprasDAO extends CrudRepository<ListaDeCompras, Intege
 	
 	public List<ListaDeCompras> findByOrderByDataListaDesc();
 
-}
+} 
